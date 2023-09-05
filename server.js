@@ -3,7 +3,7 @@ const app = express()// intencia
 const bodyParser = require('body-parser')
 const morgan = require('morgan')//informacion de la peticiones
 
-app.get('/api/v1/users',(req,res)=>{
+app.get('/api/v1/test',(req,res)=>{
     res.send('HELLO ADSO!!')
 })
 app.get('/',(req,res)=>{
