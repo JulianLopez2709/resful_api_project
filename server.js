@@ -3,7 +3,12 @@ const app = express()// intencia
 const bodyParser = require('body-parser')
 const morgan = require('morgan')//informacion de la peticiones
 
-
+app.get('/api/v1/users',(req,res)=>{
+    res.send('HELLO ADSO!!')
+})
+app.get('/',(req,res)=>{
+    res.send('HELLO MAIN ADSO!!')
+})
 //Validamos que noestemos en ambiente de production
 if(process.env.NODE_ENV != 'production'){
 
