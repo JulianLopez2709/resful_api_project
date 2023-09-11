@@ -1,5 +1,11 @@
 {
   "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "db_api_rest2",
+    "dialect": "postgres"
+  },
+  "development2": {
     "username": "root",
     "password": null,
     "database": "db_api_rest",
